@@ -23,3 +23,6 @@ jobs:
 
       - name: Run booking script
         run: python booking_automation.py
+
+      - name: Notify Success
+        run: echo "✅ Booking ran at $(date)" >> $GITHUB_STEP_SUMMARY
