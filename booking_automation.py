@@ -15,7 +15,7 @@ from datetime import datetime, timedelta
 import time
 
 NAME    = "Unnat Jain"
-CONTACT = "9899563149"
+CONTACT = "9810163148"
 
 # ── Helper: click any element by trying multiple selectors ────────────────────
 def smart_click(driver, selectors, label):
@@ -85,7 +85,7 @@ def wait_until_6am():
             time.sleep(0.5)
 
 # ── Main ──────────────────────────────────────────────────────────────────────
-wait_until_6am()
+#wait_until_6am()
 
 print("🚀 Opening browser...")
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
