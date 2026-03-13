@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-NAME    = "Unnat Jain"
+NAME    = "Vinita"
 CONTACT = "9810163148"
 URL     = "https://drmariabooking.com/"
 
