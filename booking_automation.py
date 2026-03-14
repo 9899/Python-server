@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-NAME    = "Vinita"
-CONTACT = "9810163148"
+NAME    = "Unnat"
+CONTACT = "9899563148"
 URL     = "https://drmariabooking.com/"
 
 session = requests.Session()
