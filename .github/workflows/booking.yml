@@ -2,7 +2,7 @@ name: Book Clinic Slot
 
 on:
   schedule:
-    - cron: '30 17 * * *'  # Runs at 6:00 AM IST (00:30 UTC) daily
+    - cron: '10 51 * * *'  # Runs at 6:00 AM IST (00:30 UTC) daily
   workflow_dispatch:        # Allows manual run anytime
 
 jobs:
